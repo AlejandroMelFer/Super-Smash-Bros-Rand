@@ -194,7 +194,6 @@
         "Especial_Neutral_Din": 8.4,
         "Especial_Lateral_Patada_Magica": 14.5,
         "Especial_Arriba_Teletransporte": 13.2,
-        "Especial_Abajo_Cambio_Sheik": 0.0,
         "Agarre_Golpe": 3.0
       }
     },
@@ -216,7 +215,6 @@
         "Especial_Neutral_Aguja": 2.1,
         "Especial_Lateral_Cadena": 9.3,
         "Especial_Arriba_Teletransporte": 12.7,
-        "Especial_Abajo_Cambio_Zelda": 0.0,
         "Agarre_Golpe": 3.2
       }
     },
