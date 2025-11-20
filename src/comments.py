@@ -1,0 +1,2 @@
+def porcentajes():
+    print("caca")
