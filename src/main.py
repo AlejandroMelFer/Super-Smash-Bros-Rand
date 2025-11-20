@@ -1,6 +1,7 @@
 import json
 import os
 from pathlib import Path
+import time
 
 def main():
     base = Path(__file__).resolve().parent
@@ -27,7 +28,17 @@ def main():
                 print("Escribe el nombre bien, gilipollas, dale a enter y vuelve a intentarlo")
                 input("")
                 main()
-            
+        print("QUE EMPIECE LA BATALLA EN")
+        print("3")
+        time.sleep(1)
+        print("2")
+        time.sleep(1)
+        print("1")
+        time.sleep(1)
+        os.system("cls")
+        print("sxc")
+        print("Hola")            
+        print("hola")
 
 if __name__ == "__main__":
     main()
