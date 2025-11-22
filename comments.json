@@ -38,39 +38,80 @@
     },
     "magico": {
       "baja": [
-        "hace un hechizo débil que roza al enemigo",
-        "lanza magia ligera, casi sin efecto"
+        "hace un {hechizo} débil que roza al enemigo",
+        "lanza {hechizo} ligera, casi sin efecto"
       ],
       "media": [
-        "conjura un hechizo que impacta con fuerza moderada",
-        "lanza magia precisa, buscando afectar al rival"
+        "conjura un {hechizo} que impacta con fuerza moderada",
+        "lanza {hechizo} precisa, buscando afectar al rival"
       ],
       "alta": [
-        "desata un hechizo poderoso que sacude al enemigo",
-        "invoca magia intensa, causando gran impacto"
+        "desata un {hechizo} poderoso que sacude al enemigo",
+        "invoca {hechizo} intensa, causando gran impacto"
       ],
       "aerea": [
         "desde el aire realiza un hechizo descendente",
-        "lanza un ataque mágico mientras desciende con fuerza"
+        "lanza un {hechizo} mientras desciende con fuerza"
       ]
     }
   },
   "recibe": {
-    "baja": [
-      "El golpe apenas lo afecta, se mantiene firme",
-      "Recibe el impacto sin problemas"
-    ],
-    "media": [
-      "se tambalea ligeramente por el golpe",
-      "el ataque le hace retroceder un poco"
-    ],
-    "alta": [
-      "¡Impacto brutal! Va volando por la fuerza del golpe",
-      "cae al suelo por la potencia del ataque"
-    ],
-    "aerea": [
-      "recibe un golpe desde el aire, cayendo con fuerza.",
-      "el ataque aéreo lo sacude mientras desciende."
-    ]
+    "fisico": {
+      "baja": [
+        "El golpe apenas lo afecta, se mantiene firme",
+        "Recibe el impacto sin problemas"
+      ],
+      "media": [
+        "Se tambalea ligeramente por el golpe",
+        "El ataque le hace retroceder un poco"
+      ],
+      "alta": [
+        "¡Impacto brutal! Va volando por la fuerza del golpe",
+        "Cae al suelo por la potencia del ataque"
+      ]
+    },
+    "proyectil": {
+      "baja": [
+        "El proyectil lo roza, apenas lo molesta",
+        "Recibe el impacto a distancia sin problemas"
+      ],
+      "media": [
+        "El ataque a distancia lo hace retroceder",
+        "Se defiende mientras recibe el proyectil"
+      ],
+      "alta": [
+        "¡Proyectil potente! Lo lanza hacia atrás",
+        "Recibe el ataque a distancia con gran fuerza"
+      ]
+    },
+    "magico": {
+      "baja": [
+        "El hechizo apenas le hace cosquillas",
+        "Recibe el ataque mágico sin mucho efecto"
+      ],
+      "media": [
+        "El hechizo lo afecta, se tambalea",
+        "Impacto mágico que le hace retroceder"
+      ],
+      "alta": [
+        "¡Magia poderosa! Se ve afectado gravemente",
+        "Recibe un hechizo devastador y cae al suelo"
+      ]
+    },
+    "grappling": {
+      "baja": [
+        "El agarre apenas lo detiene",
+        "Recibe un intento de agarre sin problemas"
+      ],
+      "media": [
+        "El agarre lo hace perder un poco de control",
+        "Se tambalea mientras lo sostiene el rival"
+      ],
+      "alta": [
+        "¡Agarre brutal! Lo lanza al suelo con fuerza",
+        "Recibe un grapple potente y cae pesadamente"
+      ]
+    }
   }
 }
+
