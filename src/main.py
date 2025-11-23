@@ -8,11 +8,10 @@ import percents
 def main():
     base = Path(__file__).resolve().parent
     ruta = base / ".." / "characters.json"
-    rutaComentarios = base / ".." / "comments.py"
-    rutaCategorias = base / ".." / "categorias.json"
+    rutaComentarios = base / ".." / "comments.json"
+    rutaCategorias = base / ".." / "moveset_categories.json"
     os.system("cls")
 
-    # Cargamos en diccionarios detalles de movimientos y los comentarios.
     with rutaCategorias.open("r",encoding="utf-8") as categories_json, rutaComentarios.open("r",encoding="utf-8") as comments_json :
         datosCategorias = json.load(categories_json)
         datosComentarios = json.load(comments_json)
