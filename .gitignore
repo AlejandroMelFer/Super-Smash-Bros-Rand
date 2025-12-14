@@ -55,3 +55,5 @@ ENV/
 env.bak/
 venv.bak/
 
+# Secrets
+src/SBRsecrets.py
